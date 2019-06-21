@@ -20,7 +20,7 @@ for linha in sys.stdin:
 		ocorrencia[chave] = ocorrencia[chave] + valor
 	except:
 		ocorrencia[chave] = valor
-#Fiz um cantador para cada de tweet apartir do id_tweet registrado por determinada empresa.
+#Fiz um contador para cada de tweet apartir do id_tweet registrado por determinada empresa.
 for id_tweet in ocorrencia.keys():
 	x += 1
 	#print '%s' % (ocorrencia[id_autor])
